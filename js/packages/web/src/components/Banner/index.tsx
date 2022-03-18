@@ -36,7 +36,7 @@ export const Banner = (props: {
       <div id="mobile-banner">
         <img className="banner-img" src={props.src} />
         <div className="banner-content">
-          <div id={'main-heading'}>{props.headingText}</div>
+          <div id={'main-heading'}></div>
           <div id={'sub-heading'}>{props.subHeadingText}</div>
           {props.actionComponent}
         </div>
@@ -48,14 +48,14 @@ export const Banner = (props: {
         <span id={'gradient-banner'}></span>
         <div id="banner-inner">
           <div id={'message-container'}>
-            <div id={'main-heading'}>{props.headingText}</div>
+            <div id={'main-heading'}></div>
             <div id={'sub-heading'}>{props.subHeadingText}</div>
             {props.actionComponent}
           </div>
           {props.children}
           <div className="powered-by">
             <span>
-              POWERED BY <b>METAPLEX</b>
+              POWERED BY <b>TIDESOFTECH</b>
             </span>
           </div>
         </div>
