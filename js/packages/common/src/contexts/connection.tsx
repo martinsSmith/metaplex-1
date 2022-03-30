@@ -45,7 +45,7 @@ export const ENDPOINTS: Array<Endpoint> = [
   {
     name: 'mainnet-beta',
     label: 'mainnet-beta',
-    url: 'https://ssc-dao.genesysgo.net/',
+    url: 'https://api.metaplex.solana.com/',
     chainId: ChainId.MainnetBeta,
   },
   {
